@@ -1,0 +1,25 @@
+@media (min-width: 900px){
+	.home-info{
+		padding: 100px 100px 0;
+	}
+	.btn-success{
+		margin-left: 80px;
+	}
+	.foundation-info{
+		padding-top: 50px;
+	}
+	.easy-section{
+		padding: 90px 50px;
+	}
+}
+
+
+@media (max-width: 900px){
+	.img-foundation{
+		display: none;
+	}
+	.help-box h5, .help-box h3, .help-box h6{
+		padding-left: 20px
+	}
+
+}

@@ -1,0 +1,173 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: transparent;
+	border: none;
+	z-index: 1;
+
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-default .navbar-brand{
+	color: white;
+	padding-left: 150px;
+	font-weight: bolder;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-weight: bolder;
+} 
+
+.navbar-right{
+	
+	color: white;
+
+}
+.home{
+	background: url('../img/portada.jpg');
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+.col-xs-12.col-sm-12.home-info, .foundation-info p{
+	text-align: justify;
+}
+
+.home-info h1{
+	font-weight: bolder;
+}
+.btn-success{
+	font-weight: bolder;
+	background-color: #0F7825;
+	border: none;
+	width: 140px;
+	height: 40px;
+	font-size: 1.3em;
+}
+/*FOUNDATION INFORMATION*/
+.foundation-info h3{
+	font-size: 1.1em
+}
+.foundation-info h1{
+	color: #ACAE63;
+	font-weight: bolder;
+	font-size: 2.2em
+}
+.box-foundation h3{
+	color: #ACAE63;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+/*EASY SECTION*/
+.easy-section{
+	background-color: #ACAE63;
+}
+.image-box img{
+	width: 100%;
+	border: 10px solid white;
+}
+.easy-box h3{
+	color: white;
+	font-size: 1.1em
+}
+.easy-box h1{
+	color: #41521F;
+	font-weight: bolder;
+	font-size: 2.1em;
+}
+.easy-box p{
+	color: white;
+}
+.easy-box{
+	padding: 0 20px;
+}
+.easy-box .btn-success{
+	margin: 0;
+}
+/*HELP SECTION*/
+.help-section{
+	background: url('../img/all.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.help-box{
+	color: white;
+	padding-top: 80px;
+}
+.help-box h5, .help-box h3, .help-box h6{
+	font-weight: bolder;
+}
+
+/*HOW HELP SECTION*/
+.how-help-section{
+	color: #A6A772;
+	text-align: center;
+}
+.how-help-section h2{
+	font-weight: bolder;
+	padding: 60px;
+}
+.how-help-section p{
+	text-align: justify;
+	padding: 20px;
+	color: #40418A;
+}
+.how-help-section .glyphicon{
+	font-size: 4.8em;
+}
+.second h2{
+	color: #41521F;;
+}
+.second{
+	background-color: #A89F68;
+	color: black;
+}
+.second p{
+	text-align: center;
+	font-size: 8em;
+	color: white;
+}
+.prueba{
+	display: flex;
+}
+.how-help-section-box li{
+	list-style: none;
+	padding: 15px;
+	border-top: 1px solid white;
+}
+.how-help-section-box .btn{
+	margin: 0;
+	margin-bottom: 30px;
+}
+.how-help-section-box span{
+	font-weight: bolder;
+}
+/*FOOTER*/
+.footer{
+	background-color: #41521F;
+	color: white;
+	text-align: justify;
+}
+.footer-box h4, .footer span, .footer li{
+	color: #A89F68;
+	list-style: none;
+}
+.footer-box{
+	padding: 40px;
+}
+p > span{
+	
+	font-size: 0.2em
+}
+.special{
+	position: relative;
+	bottom: 70px;
+}

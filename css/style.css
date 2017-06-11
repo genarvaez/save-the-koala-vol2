@@ -171,3 +171,14 @@ p > span{
 	position: relative;
 	bottom: 70px;
 }
+.well{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+.carousel-inner{
+	width: 80%;
+	margin: 0 auto;
+	height: 100vh;
+}
